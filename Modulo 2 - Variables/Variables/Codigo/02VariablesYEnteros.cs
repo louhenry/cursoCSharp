@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace Variables.Codigo
 {
-internal class VariablesYEnteros
-{
-public void CodigoDelCurso()
-{
-int alturaEnCentimetros;
-alturaEnCentimetros = 181;
+    internal class VariablesYEnteros
+    {
+        public void CodigoDelCurso()
+        {
+            int alturaEnCentimetros;
+            alturaEnCentimetros = 181;
 
-int edadDeFelipe = -1;
+            int edadDeFelipe = -1;
 
-int distanciaDeLaTierraAlSolEnKilometros = 150_000_000;
+            int distanciaDeLaTierraAlSolEnKilometros = 150_000_000;
 
-int numeroSuperGrande = int.MaxValue;
+            int numeroSuperGrande = int.MaxValue;
 
-Console.WriteLine(alturaEnCentimetros);
+            Console.WriteLine(alturaEnCentimetros);
 
-Console.WriteLine(edadDeFelipe);
+            Console.WriteLine(edadDeFelipe);
 
-Console.WriteLine(distanciaDeLaTierraAlSolEnKilometros);
+            Console.WriteLine(distanciaDeLaTierraAlSolEnKilometros);
 
-Console.WriteLine(numeroSuperGrande);
+            Console.WriteLine(numeroSuperGrande);
 
-Console.WriteLine("Hello, World!");
-}
-}
+            Console.WriteLine("Hello, World!");
+        }
+    }
 }
