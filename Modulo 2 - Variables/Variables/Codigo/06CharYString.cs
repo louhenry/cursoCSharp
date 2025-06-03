@@ -20,6 +20,7 @@ namespace Variables.Codigo
             Console.WriteLine(nombre);
             Console.WriteLine(texto);
             Console.WriteLine(caracterDeEscape);
+
         }
     }
 }
